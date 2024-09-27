@@ -1,0 +1,83 @@
+*{
+    margin : 0px;
+    padding : 0px;
+}
+
+.container{
+    height : 100vh;
+    width : 100vw;
+    display : flex;
+    flex-wrap : wrap;
+    justify-content : center;
+    align-items : center;
+    background-color : #F7EFE5;
+}
+
+.card{
+    height : 70%;
+    width : 25%;
+    border-radius : 40px;
+    position : relative;
+}
+
+.upper{
+    background-color: #7743db;  
+    height : 50%;
+    width : 100%;
+    border-top-left-radius : 40px;
+    border-top-right-radius : 40px;
+}
+
+.lower{
+    background-color : #a687e0;
+    height : 50%;
+    width : 100%;
+    border-bottom-left-radius : 40px;
+    border-bottom-right-radius : 40px;
+    display : flex;
+    flex-direction: column;
+    justify-content : center;
+    align-items:center;
+}
+
+.image{
+    display : flex;
+    position : absolute;
+    top : 25%;
+    left : 25%;
+}
+
+img{
+    height : 25vh;
+    width : 12vw;
+}
+
+.lower p{
+    font-size :larger;
+    font-family: "Gowun Batang", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.box{
+    background-color: #7743db;
+    width: 40%;
+    padding: 1%;
+    width : 40%;
+    text-align: center;
+    color: white;
+    border-radius:200px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.content{
+    width : 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
